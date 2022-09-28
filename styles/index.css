@@ -133,6 +133,10 @@ a {
         justify-content: center;
         margin-left: 40px;
     }
+    .container{
+        display: inline;
+        flex-direction: column;
+    }
 }
 
 body {
@@ -140,24 +144,29 @@ body {
     padding: 0;
 }
 
-
-
-.hero-content {
-    position: relative;
-}
-.hero {
+.container {
     display: flex;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-.hero img{
-    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+.image {
+    flex-basis: 60%
+}
+
+.text {
+    margin-top: 3rem;
+    width: 80%;
+    font-size: 15px;
+    padding-left: 20px;
+}
 
 
 /**ABOUT**/
